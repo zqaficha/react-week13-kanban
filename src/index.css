@@ -1,0 +1,28 @@
+:root {
+  --bg: #f4f7fd;
+  --card: #fff;
+  --line: #e4ebfa;
+  --text: #000112;
+  --purple: #635fc7;
+  --grey: #828fa3;
+  --red: #ea5555;
+}
+body.dark {
+  --bg: #20212c;
+  --card: #2b2c37;
+  --line: #3e3f4e;
+  --text: #fff;
+}
+* {
+  box-sizing: border-box;
+  margin: 0;
+  font-family: "Plus Jakarta Sans", sans-serif;
+}
+body {
+  background: var(--bg);
+  color: var(--text);
+}
+button {
+  cursor: pointer;
+  border: 0;
+}
